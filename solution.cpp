@@ -15,7 +15,10 @@ using namespace std;
 
 /*takeaways
   - pass a range to the child nodes to check
-    - this approach doesn't need you to create
+    - it checks the node's value first before
+      proceeding with the recursion which
+      can save time
+    - it doesn't need you to create
       different logic for handling the top root node
   - use pre-order traversal
   - time complexity O(n)
